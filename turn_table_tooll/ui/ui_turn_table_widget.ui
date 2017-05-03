@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>turm_table_tool_qwidget</class>
+ <widget class="QWidget" name="turm_table_tool_qwidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>175</width>
+    <height>444</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <widget class="QToolButton" name="moring_toolButton">
+     <property name="text">
+      <string>morning 早上</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/turn_table_tooll_qrc.qrc">
+       <normaloff>:/icon/morning.png</normaloff>:/icon/morning.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>150</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="noon_toolButton">
+     <property name="text">
+      <string>noon 下午</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/turn_table_tooll_qrc.qrc">
+       <normaloff>:/icon/noon.png</normaloff>:/icon/noon.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>150</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="nightfall_toolButton">
+     <property name="text">
+      <string>nightfall 傍晚</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/turn_table_tooll_qrc.qrc">
+       <normaloff>:/icon/nightfall.png</normaloff>:/icon/nightfall.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>150</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+    </widget>
+   </item>
+   <item>
+    <widget class="QToolButton" name="night_toolButton">
+     <property name="text">
+      <string>night 晚上</string>
+     </property>
+     <property name="icon">
+      <iconset resource="../resources/turn_table_tooll_qrc.qrc">
+       <normaloff>:/icon/night.png</normaloff>:/icon/night.png</iconset>
+     </property>
+     <property name="iconSize">
+      <size>
+       <width>150</width>
+       <height>80</height>
+      </size>
+     </property>
+     <property name="toolButtonStyle">
+      <enum>Qt::ToolButtonTextUnderIcon</enum>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources>
+  <include location="../resources/turn_table_tooll_qrc.qrc"/>
+ </resources>
+ <connections/>
+</ui>

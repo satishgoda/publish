@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="icon">
+    <file>../resources/morning.png</file>
+    <file>../resources/night.png</file>
+    <file>../resources/nightfall.png</file>
+    <file>../resources/noon.png</file>
+  </qresource>
+</RCC>
