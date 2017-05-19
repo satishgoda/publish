@@ -11,3 +11,5 @@ class Config(object):
     TEMPLATEPATHMNIGHTFALL = r"\\192.168.0.16\_tools\Maya\template\lgt\turntable\turn_table_nightfall_template.ma"
 
 #print "templatename".upper()
+
+

@@ -1,0 +1,22 @@
+#python specific
+*.pyc
+
+## generic files to ignore
+*~
+*.lock
+*.DS_Store
+*.swp
+*.out
+*.bak
+
+# test related
+tests/config
+.coverage
+.cache
+.travis-solo
+htmlcov
+
+# setup related
+build
+dist
+shotgun_api3.egg-info
